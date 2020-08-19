@@ -16,4 +16,20 @@ COMMENTS:
 I need to understand the optimzer better and the loss better. I'd like to know more about adding neurons, about loss, and about layers. 
 
 
+## Day 2: Learning about Computer Vision
+Computer Vision uses pictures, who knew!
 
+We use images that are already classified to train our neural network and then we will use a new data set or subset to test our model. 
+So, Don't use items that are in the training set to test the network!
+
+use numbers for our item names not strings.
+
+Flatten will take our nxn array and transform it into into a 1xm array
+.relu: If the output of a neuron is less than zero it will set it to zero.
+.softmax: This will take the highest value and set it to one and all other values to zero. This is used on classificaiton problems as we do not often want a likelyhood we would like a classification.
+
+NOTE: when building a neural network all input data has to be the same size. AND we will have as many output neurons as we have classifications, so 10 classifications will mean 10 output neurons.
+
+You can stop epochs early by making statements like in ex2 logs.get() >percent
+
+COMMENTS: I need a greater undstanding of classes and their inputs.
